@@ -8,4 +8,7 @@ setup(
     author="Edward Batraev",
     author_email="BatraevEM@gmail.com",
     packages=find_packages(),
+    install_requires=[
+        "sqlalchemy"
+    ]
 )
